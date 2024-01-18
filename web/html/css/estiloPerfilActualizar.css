@@ -1,0 +1,116 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18-nov-2023, 14:13:54
+    Author     : anton
+*/
+
+/* Mantenemos algunas propiedades del CSS original y hacemos ajustes */
+
+main {
+    padding: 40px 20px; /* Aumentamos el espacio interno del main */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+}
+
+.contenedor-datos-usuario {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    text-align: center;
+    color: #333;
+}
+
+.registro-form {
+    margin-bottom: 25px; /* Aumentamos el espacio entre los elementos */
+    text-align: center;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    padding-left: 15px;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.form-input {
+    width: calc(100% - 22px);
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(200, 200, 200, 0.8);
+    /*color: #666;*/
+    outline: none;
+    font-size: 16px;
+}
+.form-input:focus {
+    background-color: rgba(200, 200, 200, 0.3);
+}
+
+#provincia option {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* BOTONES ADMIN */
+#opcionesAdmin {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* Añade espacio entre los botones */
+    margin-bottom: 30px;
+}
+
+#btnAdminUsuarios,
+#btnAdminPeliculas,
+#btnCambiarDatosUsuario {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #fff;
+    background: rgba(255, 0, 0, 0.8);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-grow: 1; /* Hace que los botones se expandan para ocupar el espacio */
+}
+
+#btnCambiarDatosUsuario {
+    margin: 20px 0;
+}
+
+#btnAdminUsuarios:hover,
+#btnAdminPeliculas:hover,
+#btnCambiarDatosUsuario:hover {
+    background: rgba(200, 0, 0, 0.8);
+}
+
+#btnAdminUsuarios:focus,
+#btnAdminPeliculas:focus,
+#btnCambiarDatosUsuario:focus {
+    outline: none;
+}
+
+#btnAdminUsuarios:active,
+#btnAdminPeliculas:active,
+#btnCambiarDatosUsuario:active {
+    transform: translateY(2px);
+}
