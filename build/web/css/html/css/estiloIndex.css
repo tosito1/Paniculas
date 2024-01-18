@@ -1,0 +1,198 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 4 nov 2023, 0:47:28
+    Author     : anton
+*/
+/* Contenedor principal de las películas */
+.div-peliculas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.div-cartel-expandido {
+    display: inline-block;
+    margin-left: 10px;
+    height: 90%;
+}
+
+.nombre-peli-expandida, .sinopsis-peli-expandida, .director-peli-expandida, .anio-peli-expandida, .genero-peli-expandida, .valoracion-peli-expandida {
+    display: block !important;
+    text-align: center;
+}
+
+/* Contenedor de cada película */
+.pelicula {
+    width: 200px;
+    height: 300px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pelicula:hover {
+    transform: scale(1.05);
+}
+
+/* Imagen de la película */
+.cartel {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Estilos para la película expandida */
+.pelicula-expandida {
+    width: 80%; 
+    top: 15%;
+    max-width: 800px; 
+    margin: auto; 
+    height: 70%;
+    background: #000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    transition: width 0.3s ease-out, height 0.3s ease-out;
+}
+
+.contenido-expandido {
+    width: 50%;
+    padding: 20px;
+    border-right: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div-nombre-expandido {
+    width: 50%;
+    height: 90%;
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+}
+
+.descripcion-expandida {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.enlace-expandida {
+    display: block;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+
+.enlace-expandida:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
+.cerrar-expandida {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cerrar-expandida:hover {
+    background-color: #cc0000;
+    color: #fff;
+}
+
+/* Ocultar nombre de la película */
+.nombrePeli, .sinopsisPeli, .directorPeli, .anioPeli, .generoPeli, .valoracionPeli{
+    display: none;
+    color: white;
+}
+
+/* Estilos para los botones de paginación */
+#botonesPaginas {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#botonesPaginas button {
+  padding: 8px 12px;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+  border-color 0.3s ease-in-out;
+}
+
+#botonesPaginas button:hover {
+  background: rgba(200, 0, 0, 0.8);
+}
+#botonesPaginas button:focus {
+    outline: none;
+}
+#botonesPaginas button:active {
+  transform: translateY(2px);
+}
+
+/* Estilos para el buscador */
+.buscador {
+  margin: 20px auto;
+  width: 60%;
+  position: relative;
+}
+
+.buscador input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.buscador input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px 12px;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.buscador input[type="submit"]:hover {
+  background: rgba(200, 0, 0, 0.8);
+}
