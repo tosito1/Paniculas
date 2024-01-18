@@ -1,0 +1,111 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 13 oct 2023, 13:50:19
+    Author     : anton
+*/
+
+/* Estilos para etiquetas de formulario y campos */
+.tituloForm {
+    text-align: center;
+    margin: 3% 10%;
+    width: 80%;
+}
+
+.form-label {
+    
+    color: #333;
+    width: 80%;
+    margin: 20px 10% 5px 10%;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.form-input {
+    width: 80%;
+    margin: 0 10%;
+    padding: 8px;
+    background: rgba(150,150,150,0.5);
+    /*margin-bottom: 10px;*/
+    border: 1px solid rgba(150,150,150,0.8); /* Borde por defecto */
+}
+
+/*.form-input:required {
+    border: 1px solid red;  Borde rojo para campos requeridos 
+}
+
+.form-input:optional {
+    border: 1px solid green;  Borde verde para campos opcionales 
+}*/
+
+/*.form-input:valid {
+    background-color: lightgreen;  Fondo verdoso para datos válidos 
+}
+
+.form-input:invalid {
+    background-color: #ffbaba;  Fondo rojo claro para datos inválidos 
+}*/
+
+/* Estilos para el botón de enviar */
+.form-submit {
+    font-family: Arial, sans-serif;
+    width: 78%;
+    padding: 1% 0;
+    margin: 10%;
+    background-color: rgba(255,0,0,0.8); 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-submit:hover {
+    background-color: rgba(255,0,0,0.8);  
+}
+
+/* Estilos para radio buttons y checkboxes */
+.form-radio-label,
+.form-checkbox-label {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.form-radio,
+.form-checkbox {
+    margin-right: 4px;
+    margin-left: 30px;
+}
+
+.conjuntoCheckbox, .conjuntoRadio {
+    margin: 0 10% 20px 10%;
+}
+
+/*Estilos para los radio buttons
+.form-radio-label::before {
+    content: "\25CF";  Punto negro como el marcador del radio button 
+    font-size: 1.2em;
+    color: black;  Cambia el color del marcador según sea necesario 
+    margin-right: 5px;
+    background: none;
+}
+
+.form-radio:checked + .form-radio-label::before {
+    content: "\25C9";  Círculo blanco cuando está seleccionado 
+    color: #333;  Cambia el color del marcador cuando está seleccionado según sea necesario 
+}
+ */
+
+ Estilos para los checkboxes 
+.form-checkbox-label::before {
+    content: "\2610";  /*Cuadro blanco como el marcador del checkbox */
+    font-size: 1.2em;
+    color: green;  /*Cambia el color del marcador según sea necesario*/ 
+    margin-right: 5px;
+}
+
+.form-checkbox:checked + .form-checkbox-label::before {
+    content: "\2713";  /*Marca de verificación cuando está seleccionado*/ 
+    color: green;  /*Cambia el color del marcador cuando está seleccionado según sea necesario*/ 
+}
