@@ -1,0 +1,329 @@
+{
+  "peliculas": [
+    {
+      "nombre": "Mad Max: Fury Road",
+      "categoria": "Acción",
+      "anio": 2015,
+      "valoracion": 8.1,
+      "director": "George Miller",
+      "sinopsis": "En un mundo apocalíptico, Furiosa, una mujer rebelde, y Max, un hombre de acción, se unen para luchar contra Immortan Joe y liberar a un grupo de mujeres cautivas.",
+      "imagen": "../img/Accion/Mad_Max_Fury_Road.jpg"
+    },
+    {
+      "nombre": "Top Gun: Maverick",
+      "categoria": "Acción",
+      "anio": 2022,
+      "valoracion": 7.5,
+      "director": "Joseph Kosinski",
+      "sinopsis": "Pete 'Maverick' Mitchell, antiguo piloto de Top Gun, vuelve para entrenar a una nueva generación de pilotos, incluido el hijo del difunto Nick 'Goose' Bradshaw.",
+      "imagen": "../img/Accion/Top_Gun_Maverick.jpg"
+    },
+    {
+      "nombre": "Die Hard",
+      "categoria": "Acción",
+      "anio": 1988,
+      "valoracion": 8.2,
+      "director": "John McTiernan",
+      "sinopsis": "Un policía de Nueva York, John McClane, intenta salvar a su esposa y a otros rehenes atrapados por terroristas durante una fiesta navideña en un rascacielos de Los Ángeles.",
+      "imagen": "../img/Accion/Die_Hard.jpg"
+    },
+    {
+      "nombre": "John Wick 4",
+      "categoria": "Acción",
+      "anio": 2022,
+      "valoracion": 7.5,
+      "sinopsis": "En esta cuarta entrega de la saga de acción, John Wick, interpretado por Keanu Reeves, se encuentra nuevamente en una situación límite. Después de los eventos devastadores de la tercera película, donde Wick rompió una regla fundamental al matar a alguien en los terrenos del Hotel Continental, se convierte en el objetivo de una caza a nivel mundial. Ahora, Wick debe luchar contra innumerables enemigos mientras intenta escapar de la persecución y, al mismo tiempo, buscar una forma de sobrevivir y restaurar su libertad. En su búsqueda desesperada por la redención, John Wick se enfrenta a desafíos aún mayores, descubriendo secretos ocultos y enfrentándose a enemigos formidables en un mundo cada vez más peligroso y traicionero.",
+      "director": "Chad Stahelski",
+      "imagen": "../img/Accion/JonhWick4.jpg"
+    },
+    {
+      "nombre": "Indiana Jones and the Raiders of the Lost Ark",
+      "categoria": "Aventura",
+      "anio": 1981,
+      "valoracion": 8.4,
+      "director": "Steven Spielberg",
+      "sinopsis": "La historia sigue al arqueólogo y aventurero Indiana Jones (interpretado por Harrison Ford) en su búsqueda del Arca de la Alianza antes de que caiga en manos de los nazis durante la Segunda Guerra Mundial. Indy se embarca en una peligrosa expedición que lo lleva a través de diferentes continentes y enfrentándose a trampas mortales, traiciones y desafíos inesperados. Su objetivo es encontrar el Arca, un artefacto bíblico de gran poder, antes de que caiga en manos equivocadas y se desate su peligroso poder sobre el mundo.",
+      "imagen": "../img/Aventura/Indiana_Jones_and_th_Raiders_of_the_Lost Ark.jpg"
+    },
+    {
+      "nombre": "Pirates of the Caribbean: La venganza de Salazar",
+      "categoria": "Aventura",
+      "anio": 2017,
+      "valoracion": 6.5,
+      "director": "Joachim Rønning, Espen Sandberg",
+      "sinopsis": "En esta entrega de la saga, el temible Capitán Salazar escapa del Triángulo del Diablo con la intención de eliminar a todos los piratas, especialmente a Jack Sparrow. Para sobrevivir, Sparrow debe encontrar el legendario Tridente de Poseidón, un poderoso artefacto que otorga control sobre los mares. Con la ayuda de viejos amigos y aliados, Jack se embarca en una búsqueda llena de peligros y obstáculos, enfrentándose a Salazar y su tripulación de espectros con la esperanza de salvarse a sí mismo y a los piratas del mundo.",
+      "imagen": "../img/Aventura/Piratas-del-Caribe-La-venganza-de-Salazar.jpg"
+    },
+    {
+      "nombre": "El Señor de los Anillos: La Comunidad del Anillo",
+      "categoria": "Aventura",
+      "anio": 2001,
+      "valoracion": 8.8,
+      "director": "Peter Jackson",
+      "sinopsis": "En esta primera entrega de la trilogía, un joven hobbit llamado Frodo Baggins hereda un anillo mágico de su tío Bilbo. Sin saber el poder que posee este anillo, Frodo descubre que debe destruirlo para evitar que caiga en manos del malvado Sauron, quien busca usarlo para esclavizar a toda la Tierra Media. Con la ayuda de un variado grupo de compañeros, incluyendo hobbits, humanos, un mago y elfos, Frodo se embarca en un viaje peligroso para llevar el anillo al Monte del Destino y arrojarlo a las llamas volcánicas para su destrucción.",
+      "imagen": "../img/Aventura/el_señor_de_los_anillos_la_comunidad_del_anillo.jpg"
+    },
+    {
+      "nombre": "Supersalidos",
+      "categoria": "Comedia",
+      "anio": 2007,
+      "valoracion": 7.6,
+      "director": "Greg Mottola",
+      "sinopsis": "La historia sigue a dos amigos de secundaria, Seth y Evan, que están a punto de graduarse y se embarcan en una aventura para tratar de comprar alcohol y tener una fiesta épica antes de abandonar la escuela. Sin embargo, su misión se complica mientras lidian con situaciones embarazosas, encuentros cómicos y desafíos inesperados. A medida que la noche avanza, Seth y Evan se enfrentan a decisiones que podrían cambiar su amistad y sus vidas para siempre.",
+      "imagen": "../img/Comedia/Supersalidos.jpg"
+    },
+    {
+      "nombre": "El Mundo es Nuestro",
+      "categoria": "Comedia",
+      "anio": 2012,
+      "valoracion": 6.3,
+      "director": "Alfonso Sánchez",
+      "sinopsis": "Esta comedia narra la historia de Rafi y Fali, dos amigos sevillanos que están cansados de su situación y deciden robar un cajero automático para cambiar sus vidas. Aunque no tienen experiencia en crímenes, deciden llevar a cabo su plan. Sin embargo, las cosas no salen como esperaban y se ven envueltos en una serie de situaciones cómicas e inesperadas mientras intentan lidiar con las consecuencias de sus acciones.",
+      "imagen": "../img/Comedia/El_mundo_es_nuestro.jpg"
+    },
+    {
+      "nombre": "Crazy Stupid Love",
+      "categoria": "Comedia",
+      "anio": 2011,
+      "valoracion": 7.4,
+      "director": "Glenn Ficarra, John Requa",
+      "sinopsis": "La película sigue la vida de Cal Weaver, un hombre cuya vida matrimonial se desmorona después de que su esposa, Emily, le pide el divorcio. Cal, desorientado y deprimido, conoce a Jacob Palmer, un mujeriego experto en conquistar mujeres, quien se convierte en su mentor y amigo, enseñándole las artes de la seducción. Mientras tanto, los problemas amorosos y sentimentales se entrelazan entre varios personajes de diferentes generaciones, revelando conexiones inesperadas y situaciones cómicas y emotivas sobre el amor y las relaciones.",
+      "imagen": "../img/Comedia/Crazy_Stupid_Love.jpg"
+    },
+    {
+      "nombre": "La lista de Schindler",
+      "categoria": "Drama",
+      "anio": 1993,
+      "valoracion": 8.9,
+      "director": "Steven Spielberg",
+      "sinopsis": "La película está ambientada durante la Segunda Guerra Mundial y sigue la historia de Oskar Schindler, un empresario alemán que, a pesar de ser miembro del Partido Nazi, salva a más de mil judíos polacos durante el Holocausto empleándolos en su fábrica. Schindler utiliza su influencia y recursos para proteger a sus trabajadores del exterminio nazi, arriesgando su propia vida en el proceso. La película es un retrato desgarrador de la barbarie del Holocausto y el heroísmo humano en medio de la oscuridad.",
+      "imagen": "../img/Drama/La_lista_de_Schindler.jpg"
+    },
+    {
+      "nombre": "Cadena Perpetua",
+      "categoria": "Drama",
+      "anio": 1994,
+      "valoracion": 9.2,
+      "imagen": "../img/Drama/Cadena_perpetua.jpg"
+    },
+    {
+      "nombre": "El Padrino",
+      "categoria": "Drama",
+      "anio": 1972,
+      "valoracion": 9.2,
+      "director": "Frank Darabont",
+      "sinopsis": "La película está basada en la novela de Stephen King y cuenta la historia de Andy Dufresne, un banquero condenado a cadena perpetua por el asesinato de su esposa y su amante, crimen que él asegura no haber cometido. En la prisión, se hace amigo de Red, un interno experimentado, y enfrenta los desafíos y la brutalidad del sistema penitenciario. A medida que pasa el tiempo, Andy utiliza su inteligencia para ganar el respeto de sus compañeros y busca formas ingeniosas de sobrellevar su encarcelamiento, manteniendo la esperanza de probar su inocencia.",
+      "imagen": "../img/Drama/El_Padrino.jpg"
+    },
+    {
+      "nombre": "Blade Runner",
+      "categoria": "Ficción",
+      "anio": 1982,
+      "valoracion": 8.1,
+      "director": "Ridley Scott",
+      "sinopsis": "La película está ambientada en un futuro distópico en el que los androides llamados 'replicantes' son empleados en tareas peligrosas en la Tierra y son prohibidos en otros planetas. Un ex policía llamado Rick Deckard, interpretado por Harrison Ford, es llamado de nuevo a su antiguo trabajo para cazar a un grupo de replicantes fugitivos en Los Ángeles. Durante su búsqueda, Deckard se cuestiona la naturaleza de la humanidad y su propia percepción de la realidad, enfrentándose a dilemas morales y éticos en un mundo dominado por la tecnología y la distopía.",
+      "imagen": "../img/Ficción/Blade_Runner.jpg"
+    },
+    {
+      "nombre": "Origen",
+      "categoria": "Ficción",
+      "anio": 2010,
+      "valoracion": 8.8,
+      "director": "Christopher Nolan",
+      "sinopsis": "La película sigue a Dom Cobb, un ladrón especializado en el arte de la extracción: robar secretos del subconsciente de las personas mientras sueñan. Cobb es contratado para realizar una tarea diferente: implantar una idea en la mente de alguien, un acto conocido como 'inserción'. Para lograr esto, él y su equipo deben sumergirse en capas de sueños dentro de sueños, enfrentando desafíos cada vez más complejos y peligrosos. La línea entre la realidad y el sueño se desdibuja, y Cobb se enfrenta a su propio pasado mientras intenta cumplir con la peligrosa misión.",
+      "imagen": "../img/Ficción/origen.jpg"
+    },
+    {
+      "nombre": "Matrix",
+      "categoria": "Ficción",
+      "anio": 1999,
+      "valoracion": 8.7,
+      "director": "Hermanas Wachowski (Lana Wachowski, Lilly Wachowski)",
+      "sinopsis": "La película sigue a Thomas Anderson, un programador de software conocido como Neo, quien descubre que la realidad en la que vive es una simulación generada por máquinas inteligentes para controlar a la humanidad. Neo es contactado por un grupo de rebeldes que lo ayudan a despertar y comprender la verdad sobre la Matrix. A medida que despierta a la realidad, Neo se convierte en la pieza central de una profecía que lo proclama como el Elegido, con el poder de liberar a la humanidad del control de las máquinas.",
+      "imagen": "../img/Ficción/Matrix.jpg"
+    },
+    {
+      "nombre": "Harry Potter y la Piedra Filosofal",
+      "categoria": "Fantasía",
+      "anio": 2001,
+      "valoracion": 7.6,
+      "director": "Chris Columbus",
+      "sinopsis": "La película cuenta la historia de un joven mago llamado Harry Potter, quien descubre que es famoso en el mundo de la magia por haber sobrevivido al ataque de Lord Voldemort cuando era un bebé. Es invitado a asistir a Hogwarts, una escuela de magia y hechicería, donde comienza a aprender sobre su pasado y su destino como mago. Junto con sus amigos Ron Weasley y Hermione Granger, Harry se embarca en una aventura para proteger la Piedra Filosofal, un objeto con el poder de otorgar la inmortalidad, mientras descubre más sobre su conexión con el oscuro pasado de Voldemort.",
+      "imagen": "../img/Fantasia/Harry_Potter_y_la_Piedra_Filosofal.jpg"
+    },
+    {
+      "nombre": "Las crónicas de Narnia: El león, la bruja y el armario",
+      "categoria": "Fantasía",
+      "anio": 2005,
+      "valoracion": 6.9,
+      "director": "Andrew Adamson",
+      "sinopsis": "La película cuenta la historia de cuatro hermanos: Lucy, Edmund, Susan y Peter, quienes son evacuados de Londres durante la Segunda Guerra Mundial y se refugian en una mansión en el campo. En esa casa descubren un armario mágico que los transporta al mundo místico de Narnia. En Narnia, conocen al león Aslan, una poderosa y noble criatura que los guía en una lucha contra la Bruja Blanca, Jadis, quien mantiene al país en un invierno eterno. Los hermanos deben unirse a las criaturas de Narnia para liberar al reino de la opresión de la Bruja Blanca y restaurar la paz.",
+      "imagen": "../img/Fantasia/Las_cronicas_de_Narnia_El_leon_la_bruja_y_el_armario.jpg"
+    },
+    {
+      "nombre": "Harry Potter y la cámara secreta",
+      "categoria": "Fantasía",
+      "anio": 2002,
+      "valoracion": 7.4,
+      "director": "Chris Columbus",
+      "sinopsis": "La película continúa la historia de Harry Potter en su segundo año en Hogwarts. Extraños sucesos ocurren en la escuela, indicando que algo oscuro acecha los pasillos. Harry descubre la existencia de una cámara secreta en la escuela, supuestamente abierta por el heredero de Salazar Slytherin, que pone en peligro a los alumnos nacidos de muggles. Junto a sus amigos, Ron y Hermione, Harry investiga para descubrir la verdad detrás de la leyenda y detener las amenazas que acechan a Hogwarts.",
+      "imagen": "../img/Fantasia/Harry_Potter_y_la_camara_secreta.jpg"
+    },
+    {
+      "nombre": "El Resplandor",
+      "categoria": "Terror",
+      "anio": 1980,
+      "valoracion": 8.4,
+      "director": "Stanley Kubrick",
+      "sinopsis": "La película sigue a Jack Torrance, un escritor y aspirante a autor, que acepta un trabajo como cuidador de invierno en el Hotel Overlook, ubicado en un lugar remoto y aislado. Jack se muda con su familia al hotel, que está cerrado por la temporada de invierno. A medida que el aislamiento y la soledad comienzan a afectar a Jack, sus problemas mentales se intensifican y empieza a sufrir visiones aterradoras. La presencia siniestra del hotel comienza a influir en él, llevándolo a un estado de locura violenta que pone en peligro a su esposa e hijo.",
+      "imagen": "../img/Terror/El_Resplandor.jpg"
+    },
+    {
+      "nombre": "Dejame Salir",
+      "categoria": "Terror",
+      "anio": 2017,
+      "valoracion": 7.7,
+      "director": "Jordan Peele",
+      "sinopsis": "La película sigue la historia de Chris Washington, un joven afroamericano que visita la finca de la familia de su novia Rose. A pesar de la bienvenida aparentemente cálida de la familia, Chris comienza a sentirse incómodo por las extrañas actitudes de los residentes y las experiencias inquietantes que ocurren en la mansión. A medida que descubre secretos perturbadores, Chris se encuentra atrapado en una situación cada vez más inquietante y descubre una verdad escalofriante sobre la comunidad y sus propios peligros.",
+      "imagen": "../img/Terror/Dejame_salir.jpg"
+    },
+    {
+      "nombre": "Hereditary",
+      "categoria": "Terror",
+      "anio": 2018,
+      "valoracion": 7.3,
+      "director": "Ari Aster",
+      "sinopsis": "La película sigue a la familia Graham, que comienza a experimentar eventos aterradores después de la muerte de la abuela materna. Con la tragedia que golpea a la familia, secretos oscuros y misterios perturbadores comienzan a emerger, llevando a Annie, la hija mayor, a descubrir secretos perturbadores sobre su herencia familiar. Con elementos de horror psicológico y sobrenatural, 'Hereditary' explora temas de trauma familiar, destino y la naturaleza del mal.",
+      "imagen": "../img/Terror/Hereditary.jpg"
+    },
+    {
+      "nombre": "El Diario de Noa",
+      "categoria": "Romance",
+      "anio": 2004,
+      "valoracion": 7.8,
+      "director": "Nick Cassavetes",
+      "sinopsis": "La película narra la historia de amor entre Noah Calhoun y Allie Hamilton, dos jóvenes enamorados que provienen de diferentes clases sociales y son separados por circunstancias de la vida y las expectativas sociales. A pesar de las adversidades, su amor persiste a lo largo de los años. La historia se cuenta a través de la lectura del diario de Noah, recordando su apasionada relación y cómo lucharon contra las dificultades para estar juntos.",
+      "imagen": "../img/Romance/El_Diario_de_Noa.jpg"
+    },
+    {
+      "nombre": "Olvidate de mi",
+      "categoria": "Romance",
+      "anio": 2004,
+      "valoracion": 8.3,
+      "director": "Michel Gondry",
+      "sinopsis": "La película narra la historia de Joel Barish y Clementine Kruczynski, quienes deciden someterse a un procedimiento científico para borrar los recuerdos de su tumultuosa relación sentimental. A medida que los recuerdos de su romance son eliminados, Joel se da cuenta de que todavía está profundamente enamorado de Clementine y lucha contra el proceso para conservar sus recuerdos de ella, sumergiéndose en los recuerdos y experiencias que intentan ser borrados.",
+      "imagen": "../img/Romance/Olvidate_de_mi.jpg"
+    },
+    {
+      "nombre": "La La Land",
+      "categoria": "Romance",
+      "anio": 2016,
+      "valoracion": 8.0,
+      "director": "Damien Chazelle",
+      "sinopsis": "La película sigue la historia de Mia, una aspirante a actriz, y Sebastian, un pianista de jazz, mientras luchan por perseguir sus sueños en la competitiva y glamurosa ciudad de Los Ángeles. A medida que sus caminos se cruzan y su relación florece, ambos se enfrentan a los desafíos de la vida artística y las decisiones difíciles que podrían poner en peligro su amor y ambiciones profesionales.",
+      "imagen": "../img/Romance/La_La_Land.jpg"
+    },
+    {
+      "nombre": "Seven",
+      "categoria": "Suspense",
+      "anio": 1995,
+      "valoracion": 8.6,
+      "imagen": "../img/Suspense/Seven.jpg"
+    },
+    {
+      "nombre": "La Isla Siniestra",
+      "categoria": "Suspense",
+      "anio": 2010,
+      "valoracion": 8.2,
+      "director": "David Fincher",
+      "sinopsis": "La película sigue la historia de dos detectives, Somerset y Mills, que investigan una serie de asesinatos brutales inspirados en los siete pecados capitales. A medida que persiguen al asesino, se sumergen en un oscuro y perturbador mundo de perversiones humanas y moralidad retorcida. La trama se desarrolla en un ambiente sombrío y opresivo, mientras los detectives luchan por capturar al asesino antes de que complete su siniestro plan.",
+      "imagen": "../img/Suspense/La_Isla_Siniestra.jpg"
+    },
+    {
+      "nombre": "Prisioneros",
+      "categoria": "Suspense",
+      "anio": 2013,
+      "valoracion": 8.1,
+      "director": "Martin Scorsese",
+      "sinopsis": "La película sigue la historia de dos agentes federales, Teddy Daniels y Chuck Aule, quienes son enviados a investigar la desaparición de una paciente en un hospital psiquiátrico ubicado en una isla remota. Mientras investigan, descubren secretos perturbadores y se ven atrapados en una red de intriga y peligro. La isla, con su atmósfera inquietante, se convierte en un personaje por derecho propio, llevando a los agentes a confrontar sus propios demonios internos.",
+      "imagen": "../img/Suspense/Prisioneros.jpg"
+    },
+    {
+      "nombre": "Toy Story",
+      "categoria": "Animación",
+      "anio": 1995,
+      "valoracion": 8.3,
+      "director": "John Lasseter",
+      "sinopsis": "La película sigue la vida de los juguetes de Andy, especialmente Woody, un vaquero, y Buzz Lightyear, un astronauta del espacio. Cuando Buzz se une a la colección de juguetes de Andy, desencadena la rivalidad con Woody, quien se siente amenazado por el nuevo juguete favorito de Andy. Sin embargo, cuando ambos juguetes se pierden accidentalmente, deben unir fuerzas y superar sus diferencias para regresar a casa y demostrar su valía como juguetes de Andy.",
+      "imagen": "../img/Animacion/Toy_Strory.jpg"
+    },
+    {
+      "nombre": "One Piece: Red",
+      "categoria": "Animación",
+      "anio": 2019,
+      "valoracion": 7.7,
+      "imagen": "../img/Animacion/One_Piece_Film_Red.jpg"
+    },
+    {
+      "nombre": "Shrek",
+      "categoria": "Animación",
+      "anio": 2001,
+      "valoracion": 7.8,
+      "director": "Andrew Adamson, Vicky Jenson",
+      "sinopsis": "Shrek es una historia que gira en torno a un ogro solitario y gruñón llamado Shrek, cuya tranquilidad en su pantano se ve interrumpida cuando una serie de personajes de cuentos de hadas son exiliados a su hogar por Lord Farquaad. Para recuperar la paz en su pantano, Shrek hace un trato con Farquaad para rescatar a la princesa Fiona, encarcelada en una torre, a cambio de la restauración de su tierra. Con la ayuda de un burro parlante llamado Asno, Shrek inicia una aventura para rescatar a Fiona, pero a lo largo del camino, descubre lecciones sobre amistad, amor verdadero y aceptación de uno mismo.",
+      "imagen": "../img/Animacion/Shrek.jpg"
+    },
+    {
+      "nombre": "El Impostor",
+      "categoria": "Documental",
+      "anio": 2012,
+      "valoracion": 7.5,
+      "imagen": "../img/Documentales/El_impostor.jpg"
+    },
+    {
+      "nombre": "Quieres Ser Mi Vecino?",
+      "categoria": "Documental",
+      "anio": 2018,
+      "valoracion": 8.1,
+      "director": "Bart Layton",
+      "sinopsis": "La película documental 'El Impostor' relata la historia de Frederic Bourdin, un impostor francés que se hizo pasar por Nicholas Barclay, un niño estadounidense desaparecido. Bourdin, a pesar de ser mucho mayor que el niño desaparecido, logró engañar a la familia y a las autoridades durante varios meses. La película explora los eventos y las motivaciones detrás de este increíble engaño, mostrando cómo Bourdin pudo manipular la situación y los aspectos psicológicos involucrados en este misterioso caso de identidad equivocada.",
+      "imagen": "../img/Documentales/quieres-ser-mi-vecino.jpeg"
+    },
+    {
+      "nombre": "Inside Job",
+      "categoria": "Documental",
+      "anio": 2010,
+      "valoracion": 8.2,
+      "director": "Charles Ferguson",
+      "sinopsis": "El documental 'Inside Job' examina la crisis financiera global de 2008 y sus repercusiones económicas en todo el mundo. Dirigido por Charles Ferguson, el filme investiga las causas y factores que llevaron al colapso económico, analizando la complejidad de la crisis financiera, desde la burbuja inmobiliaria hasta las decisiones políticas y de regulación. A través de entrevistas con académicos, políticos y financieros clave, 'Inside Job' arroja luz sobre la corrupción, la codicia y los conflictos de interés que contribuyeron a esta crisis financiera global.",
+      "imagen": "../img/Documentales/Inside_Job.jpg"
+    },
+    {
+      "nombre": "Salvar al soldado Ryan",
+      "categoria": "Guerra",
+      "anio": 1998,
+      "valoracion": 8.6,
+      "director": "Steven Spielberg",
+      "sinopsis": "La película se desarrolla durante la Segunda Guerra Mundial, siguiendo a un grupo de soldados liderados por el Capitán John Miller (interpretado por Tom Hanks), que reciben la misión de localizar al soldado James Ryan, cuyos tres hermanos han fallecido en combate. La búsqueda se convierte en una odisea peligrosa y emocional a través de territorio enemigo mientras Miller y su equipo luchan por mantenerse juntos y cumplir su misión en medio del caos y la brutalidad de la guerra.",
+      "imagen": "../img/Guerra/Salvar_al_soldado_Ryan.jpg"
+    },
+    {
+      "nombre": "El niño con el pijama de rayas",
+      "categoria": "Guerra",
+      "anio": 2008,
+      "valoracion": 7.8,
+      "director": "Mark Herman",
+      "sinopsis": "La película está basada en la novela homónima y sigue la historia de Bruno, un niño alemán durante la Segunda Guerra Mundial, cuya familia se muda a una casa cercana a un campo de concentración nazi donde su padre trabaja. Durante su exploración, Bruno entabla amistad a través de la cerca con Shmuel, un niño judío prisionero del campo, quien usa un pijama a rayas. A pesar de las diferencias y desconocimiento de Bruno sobre la realidad del campo, la amistad entre los dos niños crece, llevando a una conmovedora y trágica conclusión.",
+      "imagen": "../img/Guerra/El_niño_con_el_pijama_de_rayas.jpg"
+    },
+    {
+      "nombre": "La Chaqueta Metálica",
+      "categoria": "Guerra",
+      "anio": 1987,
+      "valoracion": 8.3,
+      "director": "Stanley Kubrick",
+      "sinopsis": "La película sigue a un grupo de reclutas durante su entrenamiento en la infantería de Marines de los Estados Unidos y posterior despliegue a la Guerra de Vietnam. Kubrick retrata de manera cruda y realista las experiencias de los soldados, explorando los efectos deshumanizadores y psicológicos del entrenamiento militar y el trauma de la guerra en la moral y la mente de los reclutas. La película se divide en dos partes: la primera en el campo de entrenamiento y la segunda en el contexto de la guerra en Vietnam.",
+      "imagen": "../img/Guerra/La_Chaqueta_Matalica.jpg"
+    }
+  ]
+}
